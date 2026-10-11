@@ -1,0 +1,9 @@
+# Jekyll build outputs and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Operating system files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <header>
+        <div class="site-branding">
+            <a href="{{ '/' | relative_url }}">
+              <h2>Shri Ajay Kumar Dey — My Life</h2>
+              <p>History · Literature · Research · Seva</p>
+            </a>
+        </div>
+        <nav>
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="#research">Research Desk</a>
+            <a href="#poetry">Literary Room</a>
+            <a href="#books">Book Shelf</a>
+        </nav>
+    </header>
+
+    <main class="page-content">
+        {{ content }}
+    </main>
+
+    <footer>
+        <p>© 2026 Ajay Kumar Dey · Built on GitHub Pages</p>
+    </footer>
+</body>
+</html>
